@@ -1,0 +1,39 @@
+{
+  "schema": "genlayer-contract-evidence/v1",
+  "recorded_at": "2026-08-16T11:56:52.9668979Z",
+  "network": {
+    "alias": "studionet",
+    "chain_id": 61999,
+    "rpc": "https://studio.genlayer.com/api"
+  },
+  "accounts": {
+    "deployer_and_player": "0x8df7ff5eb4ac84a09cad222175b3459bb746946c"
+  },
+  "artifact": {
+    "path": "contracts/rule_bender.py",
+    "bytes": 13350,
+    "sha256": "6bbb630b0ebe2481ce2bc95d32155aa44a85f846582aec863900378c6b8bb92c",
+    "deployed_source_exact_match": true
+  },
+  "deployment": {
+    "transaction_hash": "0x759b00de2ac8649f680e586acda8bc01bdb02fa666a3696d088f2f2d5d8f1142",
+    "contract_address": "0x69410E7b51C37BA0b036894e9DC9AD963F08eE10",
+    "status": "FINALIZED",
+    "consensus_result": "MAJORITY_AGREE",
+    "execution_result": "SUCCESS"
+  },
+  "workflow_transactions": {
+    "play": "0xa569409db1b15daa302aca2c0fdbe7d6673c47faae97f10c6c39b0f3567446c0"
+  },
+  "verification": {
+    "transaction_hash": "0xa569409db1b15daa302aca2c0fdbe7d6673c47faae97f10c6c39b0f3567446c0",
+    "status": "FINALIZED",
+    "consensus_result": "MAJORITY_AGREE",
+    "execution_result": "SUCCESS",
+    "observed_state": {
+      "attempt_id": "0x8df7ff5eb4ac84a09cad222175b3459bb746946c:1",
+      "verdict": "LEGAL_SUCCESS",
+      "points": 3
+    }
+  }
+}

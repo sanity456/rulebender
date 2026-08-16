@@ -1,0 +1,39 @@
+{
+  "schema": "genlayer-contract-evidence/v1",
+  "recorded_at": "2026-08-16T11:56:52.9668979Z",
+  "network": {
+    "alias": "testnet-bradbury",
+    "chain_id": 4221,
+    "rpc": "https://rpc-bradbury.genlayer.com"
+  },
+  "accounts": {
+    "deployer_and_player": "0x8df7ff5eb4ac84a09cad222175b3459bb746946c"
+  },
+  "artifact": {
+    "path": "contracts/rule_bender.py",
+    "bytes": 13350,
+    "sha256": "6bbb630b0ebe2481ce2bc95d32155aa44a85f846582aec863900378c6b8bb92c",
+    "deployed_source_exact_match": true
+  },
+  "deployment": {
+    "transaction_hash": "0xda61070b4918cb80bc21bb21b4242cf4be3151222570b5ff63466e448b006de8",
+    "contract_address": "0x32355e16c272B30eF1e908B19DFd99140Af1DaA3",
+    "status": "ACCEPTED",
+    "consensus_result": "AGREE",
+    "execution_result": "FINISHED_WITH_RETURN"
+  },
+  "workflow_transactions": {
+    "play": "0x388b14546beea4958f911252e725490ef88d911eafa49d01313d09203402e672"
+  },
+  "verification": {
+    "transaction_hash": "0x388b14546beea4958f911252e725490ef88d911eafa49d01313d09203402e672",
+    "status": "ACCEPTED",
+    "consensus_result": "AGREE",
+    "execution_result": "FINISHED_WITH_RETURN",
+    "observed_state": {
+      "attempt_id": "0x8df7ff5eb4ac84a09cad222175b3459bb746946c:1",
+      "verdict": "LEGAL_SUCCESS",
+      "points": 3
+    }
+  }
+}
